@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Prakash Choudhary</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Prakash Choudhary</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/profile-pic.jpg" alt="Nikhil Banthia profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Prakash Choudhary</h1>
+      <p class="section__text__p2">Full Stack Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+          Download CV
+        </button>
+        <button class="btn btn-color-2" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://www.linkedin.com/in/codepc'" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/pc-daukiya'" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>1+ year <br />Web Development</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>
+              Persuing B.Tech CSE<br />From Govt. Engineering College, Bikaner
+            </p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            I am a passionate and adaptable second-year B.Tech student in Computer Science Engineering at Engineering
+            College Bikaner, with a strong foundation in full-stack web development, open-source contributions, and
+            problem-solving. I recently secured third place in the Creators Hackathon at my college, showcasing my
+            ability to innovate in competitive environments. As an active contributor to the GirlScript Summer of Code
+            (GSSoC) 2024, I have made meaningful open-source contributions, earning recognitions like the Trailblazer,
+            Adventurer, and Explorer badges. My technical expertise spans programming languages such as C, C++, and
+            Python (with libraries like NumPy, Pandas, Matplotlib, Seaborn, and Scikit-learn), web development
+            technologies including HTML, CSS, JavaScript, Node.js, MongoDB, Express, Pug, PHP, MySQL, PostgreSQL, and
+            React.js, as well as foundational knowledge of embedded systems like Arduino, ESP32, and ESP8266. I have
+            also completed NPTEL certifications in Programming in C, Digital Circuits, and Programming in C++. Currently
+            exploring machine learning and database management, I remain committed to continuous learning and leveraging
+            my diverse skill set to contribute to impactful projects and solve real-world challenges.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+  <br>
+  <br>
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Node Js</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Java Script</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>React</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Github</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Backend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Express</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>MongoDB</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Postman</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>MYSQL</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>PostgreSQL</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>PHP</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Python</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Other Study</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>C/C++</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Digital Circuits</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Machine Learning</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project 1st</h2>
+          <h2 class="experience-sub-title project-title">Company-Hotel-Layout</h2>
+          <h2 class="experience-sub-title project-title">(HTML,CSS,JS)</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/pc-daukiya/Company-Hotel-Layout'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/pc-daukiya/Company-Hotel-Layout'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <!-- Project-2 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project 2nd</h2>
+          <h2 class="experience-sub-title project-title">Crud-Data-Layout</h2>
+          <h2 class="experience-sub-title project-title">
+            ( HTML,CSS,JS,PHP )
+          </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/pc-daukiya/Crud-Data-Layout'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/pc-daukiya/Crud-Data-Layout'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <!-- Project-3 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project 3rd</h2>
+          <h2 class="experience-sub-title project-title">Fitness PlayGround</h2>
+          <h2 class="experience-sub-title project-title">
+            ( HTML,CSS,JS,PHP,MYSQL )
+          </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/pc-daukiya/FitnessPlayGround-Website">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/pc-daukiya/FitnessPlayGround-Website">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <!-- project-4 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-4.png" alt="Project 4" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project 4th </h2>
+          <h2 class="experience-sub-title project-title">Dance Academy Layout</h2>
+          <h2 class="experience-sub-title project-title">
+            ( HTML,CSS,JS,NODE.JS )
+          </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/pc-daukiya/Dance-Academy-Layout'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/pc-daukiya/Dance-Academy-Layout">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <!-- project-5 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-5.png" alt="Project 5" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project 5th </h2>
+          <h2 class="experience-sub-title project-title">Beast Fitness Website</h2>
+          <h2 class="experience-sub-title project-title">
+            ( HTML,CSS,JS)
+          </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/pc-daukiya/Beast-Fitness-website'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/pc-daukiya/Beast-Fitness-website">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <!-- project-6 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-6.png" alt="Project 6" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project 6th </h2>
+          <h2 class="experience-sub-title project-title">Mood Song Webpage</h2>
+          <h2 class="experience-sub-title project-title">
+            ( HTML,CSS,JS)
+          </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/pc-daukiya/Mood-Song-Webpage'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://mood-song.netlify.app'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <!-- project-7 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-7.png" alt="Project 7" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project 7th </h2>
+          <h2 class="experience-sub-title project-title">Company-Agriculture-Website</h2>
+          <h2 class="experience-sub-title project-title">
+            ( HTML,CSS,JS,PHP,MYSQL,NODEJS )
+          </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/pc-daukiya/Company-Agriculture-Website'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/pc-daukiya/Company-Agriculture-Website'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto : prakash18052006@gmail.com">prakash18052006@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/codepc/">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Pc-Daukiya. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
